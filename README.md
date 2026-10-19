@@ -21,3 +21,39 @@ NEXUS está dirigido a personas de todas las edades interesadas en la tecnologí
 ## Sobre mí
 
 Mi nombre es Kipler José y soy estudiante de Desarrollo Web Full Stack en Digital House. Este proyecto forma parte de mi trabajo final de la carrera y tiene como objetivo aplicar los conocimientos adquiridos durante la formación para desarrollar un e-commerce funcional, desde la planificación y el diseño de la interfaz hasta la implementación de sus funcionalidades y la gestión de datos.
+
+
+## Sitios de referencia
+
+Para el desarrollo de NEXUS se analizaron sitios de comercio electrónico y plataformas relacionadas con la tecnología, el hardware y el gaming. Estas referencias permiten identificar buenas prácticas de diseño, organización de productos y experiencia de usuario que pueden servir como inspiración para el proyecto.
+
+
+1. Compra Gamer
+
+Sitio web: https://compragamer.com/
+
+Se eligió por pertenecer al mismo rubro que NEXUS y estar orientado al público argentino. Se tomará como referencia la organización de las categorías, los filtros de productos y la presentación del catálogo de hardware y gaming.
+
+2. Mercado Libre
+
+Sitio web: https://www.mercadolibre.com.ar/
+
+Se eligió como referencia de comercio electrónico por la forma de presentar las fichas de producto y organizar el proceso de compra. Se analizarán aspectos como la información del producto, el carrito y la navegación, con el objetivo de ofrecer una experiencia clara e intuitiva.
+
+3. Venex
+
+Sitio web: https://www.venex.com.ar/
+
+Se seleccionó por ser una tienda de tecnología orientada al mercado argentino. Servirá como referencia para analizar la estructura del catálogo, la variedad de productos y la comunicación de las condiciones comerciales, como las opciones de financiación y los envíos.
+
+4. Logitech G
+
+Sitio web: https://www.logitechg.com/es-ar
+
+Se eligió por la presentación visual de sus productos, el uso de imágenes de calidad y la organización de las especificaciones técnicas. También se tomará como inspiración su identidad visual, el uso del color, el contraste y la estética moderna orientada al gaming para definir el estilo de NEXUS.
+
+5. Razer
+
+Sitio web: https://www.razer.com/latam-es  (https://www.razer.com) 
+
+Se eligió como referencia internacional por su identidad visual orientada al gaming, el uso del color verde característico de la marca y la presentación de sus productos. Se analizarán sus imágenes, la organización de las especificaciones técnicas y la estética de sus páginas para inspirar el diseño de NEXUS, adaptándolo a una tienda de tecnología dirigida al mercado argentino.
