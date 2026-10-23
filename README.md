@@ -57,3 +57,23 @@ Se eligió por la presentación visual de sus productos, el uso de imágenes de 
 Sitio web: https://www.razer.com/latam-es  (https://www.razer.com) 
 
 Se eligió como referencia internacional por su identidad visual orientada al gaming, el uso del color verde característico de la marca y la presentación de sus productos. Se analizarán sus imágenes, la organización de las especificaciones técnicas y la estética de sus páginas para inspirar el diseño de NEXUS, adaptándolo a una tienda de tecnología dirigida al mercado argentino.
+
+
+## Tablero de trabajo:
+Seguimiento del Sprint 2 en Trello: https://trello.com/b/BF3Fr8pY/nexus-store-sprint-2 
+
+
+## Identidad visual
+
+**Colores**
+
+| Nombre | Código | Uso |
+
+| Medianoche | `#0F0D1A` | Fondo general |
+| Panel | `#1C1933` | Tarjetas y header |
+| Violeta pixel | `#7B5CFF` | Enlaces y bordes |
+| Menta láser | `#35F2C0` | Botones principales |
+| Humo | `#ECEAF6` | Texto principal |
+| Niebla | `#9A97B5` | Texto secundario |
+
+**Tipografías:** Chakra Petch (títulos, precios y logo) y DM Sans (textos, formularios y botones).

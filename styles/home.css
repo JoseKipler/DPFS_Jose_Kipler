@@ -1,0 +1,127 @@
+/* Espacio para imágenes (después se reemplaza por <img>) */
+
+
+.section__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.section__head a {
+  color: var(--violeta);
+}
+
+/* Banner */
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: center;
+  margin-top: 92px;
+  padding: 40px;
+  background-color: var(--panel);
+  border-radius: 16px;
+}
+
+.banner__text h1 {
+  font-size: 40px;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.banner__text p {
+  color: var(--niebla);
+  margin-bottom: 24px;
+}
+
+.banner__img {
+  background-color: var(--noche);
+  min-height: 220px;
+}
+
+/* Categorías */
+.categories {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.category {
+  text-align: center;
+}
+
+.category span {
+  display: block;
+  margin-top: 8px;
+}
+
+.category:hover span {
+  color: var(--menta);
+}
+
+/* Productos */
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: var(--panel);
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.card h3 {
+  font-size: 16px;
+  margin: 12px 0 4px;
+}
+
+.card__price {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.card__installments {
+  color: var(--niebla);
+  font-size: 14px;
+}
+
+.card .btn {
+  width: 100%;
+  margin-top: 12px;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .banner {
+    grid-template-columns: 1fr;
+    padding: 24px;
+  }
+
+  .categories {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Celular */
+@media (max-width: 500px) {
+  .banner__text h1 {
+    font-size: 30px;
+  }
+
+  .categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .products {
+    grid-template-columns: 1fr;
+  }
+}

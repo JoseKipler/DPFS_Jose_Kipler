@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito | NEXUS - Tecnología & Gaming</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/cart.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">Nexus<span> Tecnología & Gaming</span></a>
+      <nav class="header__links">
+        <a href="index.html">Home</a>
+        <a href="#">Productos</a>
+      </nav>
+      <nav class="header__actions">
+        <a href="register.html">Regístrate</a>
+        <a href="login.html">Iniciar sesión</a>
+        <a href="productCart.html">Carrito</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <h1 class="page-title">Tu carrito <span>(2 productos)</span></h1>
+
+    <div class="cart">
+
+      <!-- Lista de productos -->
+      <section class="cart__items" aria-label="Productos del carrito">
+
+        <article class="cart-item">
+          <div class="placeholder cart-item__img">Imagen</div>
+
+          <div class="cart-item__info">
+            <h2><a href="productDetail.html">Nombre del producto</a></h2>
+            <p class="cart-item__variant">Variante: Switch Red</p>
+            <p class="cart-item__unit">$ 000.000 c/u</p>
+            <button type="button" class="cart-item__remove">Eliminar</button>
+          </div>
+
+          <div class="quantity__control">
+            <button type="button" aria-label="Quitar uno">−</button>
+            <input type="number" value="1" min="1" aria-label="Cantidad">
+            <button type="button" aria-label="Agregar uno">+</button>
+          </div>
+
+          <p class="cart-item__subtotal">$ 000.000</p>
+        </article>
+
+        <article class="cart-item">
+          <div class="placeholder cart-item__img">Imagen</div>
+
+          <div class="cart-item__info">
+            <h2><a href="productDetail.html">Nombre del producto</a></h2>
+            <p class="cart-item__variant">Variante: Negro</p>
+            <p class="cart-item__unit">$ 000.000 c/u</p>
+            <button type="button" class="cart-item__remove">Eliminar</button>
+          </div>
+
+          <div class="quantity__control">
+            <button type="button" aria-label="Quitar uno">−</button>
+            <input type="number" value="1" min="1" aria-label="Cantidad">
+            <button type="button" aria-label="Agregar uno">+</button>
+          </div>
+
+          <p class="cart-item__subtotal">$ 000.000</p>
+        </article>
+
+        <div class="cart__links">
+          <a href="index.html">‹ Seguir comprando</a>
+          <button type="button" class="cart-item__remove">Vaciar carrito</button>
+        </div>
+
+      </section>
+
+      <!-- Resumen -->
+      <aside class="summary" aria-label="Resumen del pedido">
+        <h2>Resumen de la compra</h2>
+
+        <dl class="summary__rows">
+          <div><dt>Subtotal</dt><dd>$ 000.000</dd></div>
+          <div><dt>Descuento</dt><dd>- $ 0</dd></div>
+          <div><dt>Envío</dt><dd>$ 0</dd></div>
+        </dl>
+
+        <p class="summary__total">
+          <span>Total</span>
+          <strong>$ 000.000</strong>
+        </p>
+        <p class="summary__installments">o 12 cuotas sin interés</p>
+
+        <div class="coupon">
+          <label for="cupon">Código de cupón</label>
+          <div class="coupon__row">
+            <input type="text" id="cupon" placeholder="Ingresá tu cupón">
+            <button type="button" class="btn btn-secondary">Aplicar</button>
+          </div>
+        </div>
+
+        <a href="#" class="btn btn-primary summary__buy">Iniciar compra</a>
+        <p class="summary__payment">Métodos de pago: tarjeta de crédito, débito y transferencia</p>
+      </aside>
+
+    </div>
+
+    <!-- Estado vacío: se mostrará cuando no haya productos -->
+    <section class="empty">
+      <h2>Tu carrito está vacío</h2>
+      <p>Agregá productos para verlos acá.</p>
+      <a href="index.html" class="btn btn-primary">Ver productos</a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__columns">
+        <div>
+          <h3>Productos</h3>
+          <ul>
+            <li><a href="#">Teclados</a></li>
+            <li><a href="#">Monitores</a></li>
+            <li><a href="#">Auriculares</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contacto</h3>
+          <ul>
+            <li>Ayuda</li>
+            <li>Correo / teléfono</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Sobre nosotros</h3>
+          <ul>
+            <li>Trabajá con nosotros</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Redes sociales</h3>
+          <ul>
+            <li>Instagram / X</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copy">© 2026 Nexus Tecnología & Gaming</p>
+    </div>
+  </footer>
+
+</body>
+</html>

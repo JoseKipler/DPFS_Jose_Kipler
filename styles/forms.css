@@ -1,0 +1,129 @@
+/* Tarjeta centrada */
+.auth {
+  max-width: 440px;
+  margin: 48px auto 0;
+  background-color: var(--panel);
+  padding: 18px;
+  border-radius: 16px;
+}
+
+.auth h1 {
+  font-size: 28px;
+  margin-bottom: 14px;
+}
+
+/* Campos */
+.field {
+  margin-bottom: 20px;
+}
+
+.field label {
+  display: block;
+  font-size: 14px;
+  color: var(--niebla);
+  margin-bottom: 2px;
+}
+
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="password"] {
+  width: 100%;
+  background-color: var(--noche);
+  color: var(--humo);
+  border: 1.5px solid var(--violeta);
+  border-radius: 8px;
+  padding: 12px;
+  font: inherit;
+}
+
+/* .field input[type="file"] {
+  width: 100%;
+  background-color: var(--noche);
+  color: var(--niebla);
+  border: 1.5px dashed var(--violeta);
+  border-radius: 8px;
+  padding: 10px;
+  font: inherit;
+  font-size: 14px;
+} */
+
+.field input:focus-visible {
+  outline: 3px solid var(--menta);
+  outline-offset: 2px;
+}
+
+.field__hint {
+  font-size: 13px;
+  color: var(--niebla);
+  margin-top: 4px;
+}
+
+/* Errores */
+.field--error input {
+  border-color: var(--error);
+}
+
+.field__error {
+  color: var(--error);
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.alert {
+  background-color: rgba(255, 107, 129, 0.12);
+  border: 1.5px solid var(--error);
+  color: var(--error);
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Casillas y enlaces */
+.check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.check input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--menta);
+}
+
+.check a,
+.auth__alt a,
+.auth__row a {
+  color: var(--violeta);
+}
+
+.check a:hover,
+.auth__alt a:hover,
+.auth__row a:hover {
+  text-decoration: underline;
+}
+
+.auth__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.auth .btn {
+  width: 100%;
+  font: inherit;
+  font-weight: 700;
+}
+
+.auth__alt {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--niebla);
+}
